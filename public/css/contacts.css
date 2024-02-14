@@ -1,0 +1,114 @@
+span {
+    display: none;
+}
+
+.contact-main {
+    background-color: #273f54;
+    color: #ffffff;
+    height: 1280px;
+}
+
+.contact-img {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-img img {
+    padding-top: 80px;
+    width: 1020px;
+    height: 480px;
+    object-fit: cover;
+}
+
+.contact-page {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+.contact-section,
+.contact-form {
+    width: 475px;
+}
+
+.contact-title h1 {
+    font-size: 64px;
+    font-weight: bold;
+    padding-bottom: 16px;
+}
+
+article .contact-title p {
+    font-size: 20px;
+    font-weight: 300;
+    padding-bottom: 70px;
+}
+
+.info {
+    margin-bottom: 24px;
+}
+
+.info h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.info p {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.contact-form label,
+.contact-form input,
+.contact-form textarea {
+    font-family: 'Deja Vu Sans';
+    font-size: 16px;
+}
+
+.contact-form textarea {
+    resize: none;
+    height: 64px;
+}
+
+.contact-form label {
+    font-weight: 600;
+}
+
+.contact-form input,
+.contact-form textarea {
+    font-weight: 300;
+    margin-top: 8px;
+    margin-bottom: 24px;
+    padding: 14px;
+    width: 447px;
+    border: none;
+    border-radius: 4px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: #88a9c9 solid 1px;
+}
+
+.contact-button {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-button button {
+    font-family: 'Dic Sans';
+    font-weight: bold;
+    margin-top: 8px;
+    font-size: 22px;
+    padding: 12px 38px;
+    border-radius: 4px;
+    background-color: #ffffff00;
+    border: solid 1px #ffffff;
+    color: #ffffff;
+}
+
+.contact-button button:hover {
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #425970;
+    transition-duration: 0.5s;
+}

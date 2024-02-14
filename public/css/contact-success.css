@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #273f54;
+    color: #ffffff;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+p {
+    font-weight: 300;
+}
+
+button {
+    font-family: 'Dic Sans';
+    font-weight: bold;
+    margin-top: 18px;
+    font-size: 22px;
+    border: #ffffff solid 0.5px;
+    padding: 8px 16px;
+    border-radius: 5px;
+    background-color: #00000000;
+    color: #ffffff;
+    
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: #273f54;
+    transition-duration: 0.1s;
+}
+
+@media (max-width: 430px) {
+    main {
+        padding: 0 64px;
+    }
+}

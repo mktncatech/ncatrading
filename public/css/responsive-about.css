@@ -1,0 +1,151 @@
+/* ------------------------------------------------------------
+Largura máxima de 1242px
+------------------------------------------------------------ */
+
+@media (max-width: 1242px) {
+
+    /* Seção 'Sobre' */
+    section .about-all {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section .about-article,
+    .about-section {
+        height: 100%;
+        width: 100%;
+    }
+
+    section .about-all {
+        padding: 48px 32px;
+        width: 600px;
+    }
+
+    .about-content img {
+        width: 100%;
+        object-position: center;
+    }
+
+    .content-container {
+        width: 100%;
+    }
+
+    .about-section {
+        padding: 0;
+    }
+
+    .about-section h1 {
+        font-size: 36px;
+        margin: 0;
+        width: 90%;
+    }
+
+    .about-content p {
+        font-size: 16px;
+    }
+
+    .about-section h1,
+    .about-content p,
+    .about-content button {
+        margin-bottom: 24px;
+    }
+
+    .about-content {
+        margin: 0;
+    }    
+}
+
+/* ------------------------------------------------------------
+Largura máxima de 1262px
+------------------------------------------------------------ */
+
+@media (max-width: 1262px) {
+    .principles {
+        height: 100%;
+        padding: 48px 32px;
+        margin: 0;
+    }
+
+    .principles-article {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    .principles-text {
+        margin-bottom: 24px;
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .texts {
+        height: 80%;
+        width: 80%;
+        padding-left: 8px;
+        padding-right: 8px;
+        padding-top: 32px;
+        padding-bottom: 0px;
+    }
+
+    .principles-title h3 {
+        font-size: 36px;
+        padding-bottom: 24px;
+    }
+
+    .principles-final {
+        margin-bottom: 0;
+    }
+}
+
+/* ------------------------------------------------------------
+Largura máxima de 1164px
+------------------------------------------------------------ */
+@media (max-width: 1164px) {
+    .team-section {
+        height: 100%;
+        padding: 48px 32px;
+    }
+    
+    .team-article {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text-article {
+        margin-bottom: 24px;
+    }
+
+    .team-title {
+        width: 100%;
+    }
+
+    .team-first-title {
+        font-size: 32px;
+    }
+}
+
+/* ------------------------------------------------------------
+Largura máxima de 450px
+------------------------------------------------------------ */
+
+@media (max-width: 450px) {
+    .principles-text {
+        width: 90%;
+    }
+
+    .principles-title h3 {
+        font-size: 32px;
+        padding-bottom: 24px;
+    }
+
+    .texts h4 {
+        font-size: 16px;
+    }
+
+    .texts p {
+        font-size: 13px;
+    }
+}

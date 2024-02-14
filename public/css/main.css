@@ -1,0 +1,43 @@
+/* Estilização dos conteúdos principais nas páginas */
+
+a,
+a:visited {
+    text-transform: none;
+    color: #273f54;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+
+h1, h2, h3, h6 {
+    font-family: 'Dic Sans';
+    font-weight: normal;
+}
+
+/* Marcador de página */
+
+.current-page a {
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #6c839c, #273f54);
+    -webkit-border-radius: 10px;
+    border: 1.5px solid #ffffff;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(0deg, #6c839c, #273f54);
+}

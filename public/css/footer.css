@@ -1,0 +1,44 @@
+/* Configuração dos rodapés nas páginas */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    height: 150px;
+    padding: 16px 0 16px;
+    width: 100%;
+    background-color: #e2e6ebbe;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 16px;
+}
+
+footer ul li {
+    margin-right: 8px;
+}
+
+footer > a {
+    justify-content: flex-start;
+    width: 136px;
+    margin-left: 16px;
+}
+
+footer a img {
+    object-fit: cover;
+}
+
+/* Media query */
+@media (max-width: 420px) {
+    footer > a {
+        width: 96px;
+    }
+
+    footer ul li a img {
+        width: 32px;
+    }
+}

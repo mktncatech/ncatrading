@@ -1,0 +1,50 @@
+/* Fontes usadas no projeto */
+@font-face {
+    font-family: 'Caveat';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url('https://fonts.gstatic.com/s/caveat/v18/WnznHAc5bAfYB2QRah7pcpNvOx-pjSx6eIWpYQ.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Dic Sans';
+    src: url('../assets/fonts/Dic-Sans/Dic-Sans-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Dic Sans';
+    src: url('../assets/fonts/Dic-Sans/Dic-Sans-Medium.otf') format('opentype');
+    font-weight: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Deja Vu Sans';
+    src: url('../assets/fonts/Deja-Vu-Sans/DejaVuSans-Bold.ttf');
+    font-weight: bold;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Deja Vu Sans';
+    src: url('../assets/fonts/Deja-Vu-Sans/DejaVuSans.ttf') format('truetype');
+    font-weight: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Deja Vu Sans';
+    src: url('../assets/fonts/Deja-Vu-Sans/DejaVuSans-Book.ttf');
+    font-weight: 600;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Deja Vu Sans';
+    src: url('../assets/fonts/Deja-Vu-Sans/DejaVuSans-ExtraLight.ttf');
+    font-weight: 300;
+    font-display: swap;
+}

@@ -1,0 +1,195 @@
+/* ------------------------------------------------------------
+Seção 'Sobre'
+------------------------------------------------------------ */
+
+.about-section {
+    display: flex;
+    justify-content: center;
+    height: 720px;
+    padding: 80px 144px;
+    background-color: #273f54;
+}
+
+.about-section img {
+    height: 428px;
+    object-fit: cover;
+}
+
+.about-all {
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+}
+
+.about-section h1 {
+    text-align: left;
+    margin-right: 16px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.about-section p {
+    line-height: 24px;
+    font-weight: 300;
+    font-size: 1.08em;
+}
+
+.about-article {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.about-content p,
+.about-content button {
+    margin-bottom: 48px;
+}
+
+.container-content {
+    width: 90%;
+}
+
+.about-content {
+    margin-left: 16px;
+}
+
+.about-content button {
+    font-family: 'Dic Sans';
+    font-weight: bold;
+    font-size: 20px;
+    padding: 12px 32px;
+    border-radius: 4px;
+    background-color: #ffffff00;
+    border: solid 1px #ffffff;
+    color: #ffffff;
+}
+
+.about-content button:hover {
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #425970;
+    transition-duration: 0.5s;
+}
+
+/* ------------------------------------------------------------
+Seção 'Nossos princípios'
+------------------------------------------------------------ */
+
+.principles {
+    height: 560px;
+    padding: 80px 144px;
+}
+
+.principles h3,
+.team-first-title {
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+
+.principles-article {
+    display: flex;
+    justify-content: space-between;
+    padding: 72px 16px;
+}
+
+.principles-text {
+    height: 310px;
+    width: 390px;
+    background-color: #6c839c4d;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 8px;
+}
+
+.principles-text h4,
+.text-article h3 {
+    font-family: 'Deja Vu Sans';
+    font-weight: 600;
+}
+
+.principles-text p {
+    font-weight: 300;
+}
+
+.texts {
+    padding: 36px 42px;
+    line-height: 24px;
+}
+
+/* ------------------------------------------------------------
+Seção 'Equipe'
+------------------------------------------------------------ */
+
+.team-section {
+    background-color: #6c839c4d;
+    height: 560px;
+    padding: 80px 144px;
+}
+
+.team-article {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 68px;
+}
+
+.team-article img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    margin-bottom: 18px;
+}
+
+.text-article {
+    margin-left: 16px;
+    margin-right: 16px;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    width: 260px;
+    height: 400px;
+    border-radius: 8px;
+}
+
+.text-article:hover {
+    transform: scale(1.015);
+    transform-origin: center;
+    backface-visibility: hidden;
+    transition: 350ms;
+}
+
+.text-article h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.text-article p {
+    font-size: 18px;
+    font-family: 'Deja Vu Sans';
+    font-weight: 300;
+}
+
+.article-content {
+    padding-top: 40px;
+}
+
+.text-article button {
+    margin-top: 18px;
+    font-family: 'Dic Sans';
+    font-weight: bold;
+    font-size: 16px;
+    padding: 8px 18px;
+    border-radius: 4px;
+    background-color: #ffffff00;
+    border: solid 1px #425970;
+    color: #425970;
+}
+
+.text-article button:hover {
+    cursor: pointer;
+    background-color: #425970;
+    color: #ffffff;
+    transition-duration: 0.5s;
+}

@@ -1,0 +1,66 @@
+@media (max-width: 1080px) {
+    .contact-main {
+        height: 100%;
+        padding: 48px 32px;
+    }
+
+    .contact-page {
+        display: flex;
+        padding-top: 0;
+    }
+
+    .contact-section {
+        width: 100%;
+    }
+
+    .contact-img {
+        display: flex;
+    }
+
+    .contact-img img {
+        padding-top: 32px;
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+    }
+
+    .contact-page {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-title h1 {
+        font-size: 38px;
+    }
+
+    article .contact-title p {
+        font-size: 20px;
+    }
+
+    .info h3 {
+        font-size: 18px;
+    }
+
+    .info p {
+        font-size: 18px;
+    }
+
+    .contact-form {
+        height: 100%;
+        width: 100%;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        width: 96.5%;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact-page {
+        width: 98%;
+        align-items: center;
+        justify-content: center;
+    }
+}
